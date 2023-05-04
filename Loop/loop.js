@@ -1,5 +1,27 @@
 
-let contador = 1
+const notas = [9.0, 8.4, 9.9, 7.8, 8.3]
+
+for (i in notas) {
+    console.log(i, notas[i])
+}
+
+const pessoa = {
+    nome: 'Jordânia',
+    sobrenome: 'Carvalho',
+    idade:30
+}
+
+
+for (let atributo in pessoa) {
+    console.log(`${atributo} = ${pessoa[atributo]}`)
+}
+
+
+
+
+
+
+/*let contador = 1
 
 while (contador <= 10) {
     console.log(`Contador = ${contador}`)
@@ -14,7 +36,7 @@ const notas = [9.0, 8.4, 9.9, 7.8, 8.3]
 
 for (let i = 0; i < notas.length; i++){
     console.log(`Nota = ${notas[i]}`)
-}
+}*/
     
 
 
