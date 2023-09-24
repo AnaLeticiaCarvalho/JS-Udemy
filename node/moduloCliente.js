@@ -5,4 +5,4 @@ const lodash = require('lodash')
 
 /*import moduloA from './moduloA'
 import moduloB from './moduleB'*/
-//lodash é uma biblioteca
+//lodash é uma biblioteca para node
